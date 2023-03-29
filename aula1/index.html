@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../normalize.css"/>
+    <link rel="stylesheet" href="../style.css"/>
+    <title>AULA - 1</title>
+</head>
+<body>
+    <div class="texto">
+        <h1>CodeCraft</h1>
+    </div>
+    <form action="sksks.php" method="GET" enctype="multipart/form-data">
+        <fieldset>
+            <legend>
+                <div class="logo">
+                    <img src="../logo.png" alt="logo">
+                </div>
+            </legend>
+            <div class="info-usuario">
+                <input type="text" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})$" title="email" name="email" placeholder="EMAIL" autocomplete="off" autofocus required/>
+                <input type="password"  name="senha" placeholder="SENHA" required minlength="4"/>
+            </div>
+            <div class="button">
+                <button>ENTRAR</button>
+            </div>
+        </fieldset>
+    </form>
+    <footer>
+        <table>
+            <tr>
+                <td><a href="#">sobre nós</a></td>
+                <td><a href="#">contato</a></td></a>
+                <td><a href="#">email</a></td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
